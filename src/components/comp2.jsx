@@ -31,13 +31,13 @@ export default function Comp2 () {
 
         />
 
-<Card
+        <Card
         nom="dawg"
         type="dog"
         user="user-343"
-
-        />
         
+        />
+
         </div>
         
     )
