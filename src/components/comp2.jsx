@@ -1,7 +1,7 @@
 import Card from "./Card.1";
 import PropTypes from 'prop-types'; 
 
-export default function Comp2({ arrayCards, setArrayCards }) {
+export default function Comp2({ arrayCards}) {
     let thingsArray = arrayCards.map(card => (
         <Card
             key={card.nom}
@@ -18,6 +18,6 @@ export default function Comp2({ arrayCards, setArrayCards }) {
     );
 }
 Comp2.propTypes = {
-        arrayCards: PropTypes.array.isRequired, // Validate arrayCards as an array and is required
-        setArrayCards: PropTypes.func.isRequired // Validate setArrayCards as a function and is required
+        arrayCards: PropTypes.array.isRequired,
+        setArrayCards: PropTypes.func.isRequired 
 }    

@@ -1,4 +1,5 @@
 import "../header.css"; 
+import PropTypes from 'prop-types'; 
 
 export default function Header({ addElement }) {
     return (
@@ -7,3 +8,6 @@ export default function Header({ addElement }) {
         </div>
     );
 }
+Header.propTypes = {
+    addElement: PropTypes.func.isRequired 
+};
