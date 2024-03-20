@@ -2,6 +2,7 @@
 import animal from "../assets/animal.png"
 import preview from "../assets/preview.jpg"
 import user from "../assets/user.png"
+import PropTypes from 'prop-types'; 
 
 export default function Card(props) {
 
@@ -28,3 +29,8 @@ export default function Card(props) {
     );
 
 }
+Card.propTypes = {
+    nom: PropTypes.string.isRequired, // Validate nom as a string and is required
+    type: PropTypes.string.isRequired, // Validate type as a string and is required
+    user: PropTypes.string.isRequired // Validate user as a string and is required
+};
