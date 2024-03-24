@@ -1,9 +1,13 @@
 import './index.css';
-
+import Header from "./components/Header"
+import Main from "./components/Main"
 function App() {
   return (
-    <button className='btn'>test</button>
-  );
+    <>
+    <Header/>
+    <Main />
+    </>
+ );
 }
 
 export default App;
