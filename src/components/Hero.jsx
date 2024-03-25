@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="left flex flex-col  text-center lg:text-left max-w-[80%] lg:max-w-[50%]">
         <h1 className="text-[clamp(2.5rem,6vw,4.5rem)] font-bold leading-none">Bienvenu dans Cattus</h1>
         <h2 className="text-base-content/70 font-title py-4 font-light md:text-lg xl:text-2xl  ">
-          platforme qui vise à faciliter l&apos;adoption responsable d&apos;animaux de compagnie
+          platforme qui vise à faciliter l&apos;adoption responsable d&apos;animaux de compagnie et beaucoup Autre chose
         </h2>
         <div className="flex gap-5 grid-rows-1 grid-cols-1 mt-5 justify-center lg:justify-normal">
           <button className="btn btn-primary w-25 lg:w-40 flex justify-between px-4 group ">
