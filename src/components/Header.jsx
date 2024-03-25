@@ -22,12 +22,19 @@ export default function Header() {
 
     
 
-        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[5] p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a>Actualités</a></li>
+          <li><a>Contacter nous!</a></li>
+          <li><a>Cahier de Charge</a></li>
+
+          <li><a></a></li>
           <li className="lg:hidden">
-            <a>Parent</a>
+            <a>features</a>
             <ul className="p-2">
-              <li className="lg:hidden"><a>Submenu 1</a></li>
-              <li className="lg:hidden"><a>Submenu 2</a></li>
+              <li className="lg:hidden"><a>Carte de veterenaire</a></li>
+              <li className="lg:hidden"><a>Cattus Community</a></li>
+              <li className="lg:hidden"><a>Innovation spotlight </a></li>
+
             </ul>
           </li>
           <li className="lg:hidden"><a>About</a></li>
@@ -46,10 +53,12 @@ export default function Header() {
         <li className="text-accent font-bold"><a>Home</a></li>
         <li>
           <details>
-            <summary>Parent</summary>
-            <ul className="p-2 w-40">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
+            <summary>features</summary>
+            <ul className="p-2 w-60">
+              <li><a>Carte de Veterenaire</a></li>
+              <li><a>Cattus Community</a></li>
+              <li><a>Innovation spotlight </a></li>
+
             </ul>
           </details>
         </li>

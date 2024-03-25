@@ -1,11 +1,13 @@
 import './index.css';
 import Header from "./components/Header"
-import Main from "./components/Main"
+import Hero from "./components/Hero"
+import Footer from "./components/Footer"
 function App() {
   return (
     <>
     <Header/>
-    <Main />
+    <Hero />
+    <Footer/>
     </>
  );
 }
