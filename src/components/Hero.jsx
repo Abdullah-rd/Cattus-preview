@@ -2,7 +2,7 @@ import Maind from "../assets/main-pic.png";
 
 export default function Hero() {
   return (
-    <div className="flex flex-row flex-wrap pl-10 py-20 justify-center md:mr-auto md:mt-0 lg:justify-between lg:items-center lg:py-0 ">
+    <div className="flex flex-row flex-wrap md:pl-10 py-20 justify-center md:mr-auto md:mt-0 lg:justify-between lg:items-center lg:py-0 ">
       <div className="left flex flex-col  text-center lg:text-left max-w-[80%] lg:max-w-[50%]">
         <h1 className="text-[clamp(2.5rem,6vw,4.5rem)] font-bold leading-none">Bienvenu dans Cattus</h1>
         <h2 className="text-base-content/70 font-title py-4 font-light md:text-lg xl:text-2xl  ">
