@@ -9,7 +9,9 @@ export default {
     extend: {},
   },
   // eslint-disable-next-line no-undef
-  plugins: [require("@tailwindcss/typography"), require("daisyui")],
+  plugins: [require("@tailwindcss/typography"), require("daisyui"), require('tailwind-scrollbar'),
+],
+  
   //...
   daisyui: {
     themes: [

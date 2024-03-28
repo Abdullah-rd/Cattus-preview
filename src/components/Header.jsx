@@ -63,7 +63,7 @@ export default function Header() {
             </ul>
           </details>
         </li>
-        <li><a>About</a></li>
+        <li><a>E-boutique</a></li>
       </ul>
     </div>
     <div className="navbar-end gap-3">
