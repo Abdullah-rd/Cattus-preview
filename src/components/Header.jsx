@@ -43,7 +43,7 @@ export default function Header() {
       </div>
 
       <a className="btn btn-ghost p-0 ">  
-      <img src={icon} className="h-9 p-1 transition-all sm:h-10" alt="icon--logo"/>
+      <img src={icon} className="h-8 p-1 transition-all sm:h-10" alt="icon--logo"/>
        </a>
 
 

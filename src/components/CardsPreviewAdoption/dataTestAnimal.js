@@ -1,7 +1,25 @@
 const data = {
   cat: [
     {
-      title: "cat pour adoption",
+      title: "chat",
+      description: "dsa;dkasl;dkasl;dkals;dkas",
+      age: 44,
+      animal: "chat",
+      race: "shwingom",
+      genre: "female",
+      label: "labeled"
+    },
+    {
+      title: "maria",
+      description: "dsa;dkasl;dkasl;dkals;dkas",
+      age: 44,
+      animal: "chat",
+      race: "shwingom",
+      genre: "female",
+
+    },
+    {
+      title: "james",
       description: "dsa;dkasl;dkasl;dkals;dkas",
       age: 44,
       animal: "chat",
@@ -9,7 +27,7 @@ const data = {
       genre: "female",
     },
     {
-      title: "cat pour adoption",
+      title: "lucas",
       description: "dsa;dkasl;dkasl;dkals;dkas",
       age: 44,
       animal: "chat",
@@ -17,28 +35,13 @@ const data = {
       genre: "female",
     },
     {
-      title: "cat pour adoption",
+      title: "porto",
       description: "dsa;dkasl;dkasl;dkals;dkas",
       age: 44,
       animal: "chat",
       race: "shwingom",
       genre: "female",
-    },
-    {
-      title: "cat pour adoption",
-      description: "dsa;dkasl;dkasl;dkals;dkas",
-      age: 44,
-      animal: "chat",
-      race: "shwingom",
-      genre: "female",
-    },
-    {
-      title: "cat pour adoption",
-      description: "dsa;dkasl;dkasl;dkals;dkas",
-      age: 44,
-      animal: "chat",
-      race: "shwingom",
-      genre: "female",
+      label: "labeled"
     },
   ],
 };

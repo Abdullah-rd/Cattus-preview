@@ -3,7 +3,7 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Footer from "./components/Footer"
 import Faqs from "./components/Faq/Faqs"
-import CardsPreview from './components/CardsPreview/Cardspreview';
+import CardsPreview from './components/CardsPreviewAdoption/CardsAnimalPreview';
 
 function App() {
   return (

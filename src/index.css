@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--fallback-p,oklch(var(--p)));
+    border-radius: 8px;
+
+    
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--fallback-s,oklch(var(--a)));
+  }
