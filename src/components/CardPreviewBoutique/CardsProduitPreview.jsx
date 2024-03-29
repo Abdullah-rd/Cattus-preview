@@ -1,21 +1,19 @@
-import Card from "./CardAnimal.jsx";
+import Card from "./Cardproduit.jsx";
 import React from "react";
-import Data from "./dataTestAnimal.js";
+import Data from "./dataTestProduit.js";
 
 
 
 export default function CardsPreview() {
   const id = React.useId;
-  const cards = Data.cat.map((prev) => {
+  const cards = Data.produits.map((prev) => {
     return (
       <Card
         key={id}
-        titre={prev.title}
+        title={prev.title}
+        prix={prev.prix}
+        rating={prev.rating}
         description={prev.description}
-        race={prev.race}
-        typeAnimal={prev.animal}
-        genre={prev.genre}
-        label={prev.label}
       />
     );
   });
@@ -25,13 +23,21 @@ export default function CardsPreview() {
     <div className=" lg:mt-20 px-10">
       <div className="flex justify-between items-center">
       <h1 className="title text-4xl py-5 px-5 font-bold ">
-        Top animaux en adoption
+        Top Produit sponsorisee
       </h1>
       <button className="btn btn-ghost shadow-sm btn-sm rounded-md ">voir plus</button>
       </div>
       <div className=" info--container flex gap-7 py-7 px-5  flex-nowrap overflow-x-auto transition ease-in-out  relative ">
         {cards}
       </div>
+
+
+    
+
+
+
+
+
     </div>
   );
 }

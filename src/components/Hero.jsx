@@ -26,7 +26,7 @@ export default function Hero() {
               />
             </svg>
           </button>
-          <button className="btn btn-outline">Autre types</button>
+          <button className="btn btn-outline">Explorer les animaux</button>
         </div>
       </div>
 

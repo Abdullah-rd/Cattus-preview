@@ -1,10 +1,9 @@
 import preview from "./../../assets/preview.jpg";
 import PropTypes from "prop-types";
-import {motion} from "framer-motion"
 
 export default function Card(props) {
   return (
-    <motion.div 
+    <div 
       className="card w-64 bg-base-100 shadow-lg flex-none hover:cursor-pointer 
     group
     "
@@ -27,11 +26,11 @@ export default function Card(props) {
           {props.description}
         </p>
         <div className="card-actions justify-end">
-          <div className="badge badge-outline">{props.race}</div>
-          <div className="badge badge-outline">{props.genre}</div>
+          <div className="badge badge-outline ">{props.race}</div>
+          <div className="badge badge-outline ">{props.genre}</div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }
 
